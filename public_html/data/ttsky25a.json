@@ -1,0 +1,31 @@
+{
+  "name": "Tiny Tapeout Sky 25A",
+  "scale": 200,
+  "layers": [
+    {
+      "name": "GDS",
+      "URL": "ttsky25a-gds",
+      "width": 17940,
+      "height": 25940,
+      "tileSize": 512,
+      "imageSize": 32768
+    },
+    {
+      "name": "Local interconnect (LI)",
+      "URL": "ttsky25a-li",
+      "width": 17940,
+      "height": 25940,
+      "tileSize": 512,
+      "imageSize": 32768
+    },
+    {
+      "name": "Shuttle Map",
+      "URL": "ttsky25a-map",
+      "width": 17940,
+      "height": 25940,
+      "tileSize": 512,
+      "imageSize": 32768
+    }
+  ],
+  "links": "data/ttsky25a-links.json"
+}
